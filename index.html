@@ -57,7 +57,7 @@
                   Selamat Datang di Website Kami! <br />
                   Belajar Coding Secara Praktis.
                 </p>
-                <a href="#order" class="btn btn-light btn-lg rounded-pill text-primary mb-5" >Order Now</a>
+                <a href="#pricing" class="btn btn-light btn-lg rounded-pill text-primary mb-5" id="order-now" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now</a>
               </div>
             </div>
           </div>
@@ -383,6 +383,88 @@
         </div>
       </section>
     </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <div class="content" style="margin: 0px auto;">
+              <div class="container pb-3">
+                <div class="row text-center">
+                  <div class="col-12 title">
+                    <h2>Our <span>Pricing</span></h2>
+                    <p>Penawaran terbaik untuk anda</p>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="custom">
+                        <h3 class="text-white py-4">Coding Essentials</h3>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="my-4">1500 <sup>k</sup>
+                        <ul>
+                          <li>C++, HTML, CSS</li>
+                          <li>Basic Coding</li>
+                          <li>E-certificate</li>
+                          <li>8 weeks</li>
+                        </ul>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#order" class="btn btn-custom btn-lg">Get This</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <h3 class="text-black py-4">Pemrograman Profesional</h3>
+                      <div class="custom-2">
+                        <div class="card-body text-white">
+                          <h3 class="my-4">2500 <sup>k</sup>
+                          <ul>
+                            <li>Python, Clang, Golang</li>
+                            <li>Intermediate level coding</li>
+                            <li>E-certificate</li>
+                            <li>12 weeks</li>
+                          </ul>
+                          <a href="#order" class="btn btn-light fw-bold text-primary btn-lg mt-5">Get This</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="custom">
+                        <h3 class="text-white py-4">Spesialisasi Pemrograman</h3>
+                      </div>
+                      <div class="card-body p-0 mt-3">
+                        <h3 class="my-4">3500 <sup>k</sup>
+                        <ul>
+                          <li>All Coding language</li>
+                          <li>Expert Level Coding</li>
+                          <li>E-certificate</li>
+                          <li>12 weeks</li>
+                        
+                        </ul>
+                      </div>
+                      <div class="card-footer pt-0">
+                        <a href="#order" class="btn btn-custom btn-lg">Get This</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
